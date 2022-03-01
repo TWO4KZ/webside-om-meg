@@ -1,27 +1,3 @@
-      @keyframes fadein {
-        from {
-          opacity: 0%;
-        }
-        to {
-          opacity: 100%;
-        }
-      }
-      @keyframes slide {
-        from {
-          transform: translateX(200%);
-        }
-        to {
-          transform: translateX(0%);
-        }
-      }
-      @keyframes slide2 {
-        from {
-          transform: translateX(-200%);
-        }
-        to {
-          transform: translateX(0%);
-        }
-      }
       h1 {
         text-align: center;
         background-color: rgb(121, 117, 117);
@@ -81,6 +57,7 @@
       }
       p {
           text-align: center;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
       }
       img:hover {
         transform: scale(1.8);
