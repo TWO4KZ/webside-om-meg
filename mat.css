@@ -1,0 +1,99 @@
+      @keyframes fadein {
+        from {
+          opacity: 0%;
+        }
+        to {
+          opacity: 100%;
+        }
+      }
+      @keyframes slide {
+        from {
+          transform: translateX(200%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
+      @keyframes slide2 {
+        from {
+          transform: translateX(-200%);
+        }
+        to {
+          transform: translateX(0%);
+        }
+      }
+      h1 {
+        text-align: center;
+        background-color: rgb(121, 117, 117);
+        border-radius: 45px;
+        font-size: 80px;
+        opacity: 60%;
+        color: lightskyblue;
+        font-weight: bold;
+        padding: 10px;
+        border-width: 10px;
+        border-style: groove;
+        animation-name: fadein;
+        animation-duration: 5s;
+        opacity: 100%;
+      }
+
+      h2 {
+        color: lightskyblue;
+        font-weight: bold;
+        text-align: center;
+        opacity: 60%;
+        animation-name: slide;
+        animation-duration: 5s;
+      }
+
+      body {
+        background-image: url(resturaunt-blur.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: grey;
+      }
+
+      li {
+        color: rgb(231, 231, 120);
+        text-align: center;
+        animation-name: slide2;
+        animation-duration: 5s;
+      }
+
+      ul {
+        list-style-position: inside;
+      }
+
+      a {
+        color: rgb(214, 73, 73);
+      }
+
+      img {
+        height: 262px;
+        width: 300px;
+        margin: 1px auto 1px;
+        display: block;
+        border-radius: 30px;
+        position: absolute;
+        top: 160px;
+        left: 150px;
+      }
+      p {
+          text-align: center;
+      }
+      img:hover {
+        transform: scale(1.8);
+      }
+      .box {
+        width: 800px;
+        height: 500px;
+        border: 1px solid black;
+        top: 160px;
+        left: 573px;
+        position: absolute;
+        background-color: antiquewhite;
+        opacity: 30%;
+        margin: 1px auto 1px;
+        border-radius: 10px;
+      }
