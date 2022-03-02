@@ -11,9 +11,21 @@
     <meta name="description" content="En side om meg">
     <meta name="keyword" content="Trym">
 </head>
-
+<script>
+    function opennavigation(){
+        document.getElementById("navigation").style.width="250px";
+    }
+    function closenavigation(){
+        document.getElementById("navigation").style.width = "0px";
+    }
+</script>
 <body>
-    <p><a href="index.html">Hjem </a><a href="annenmat.html">Les om mat!</a></p>
+    <div id="navigation" class="navigation">
+        <a href="javascript:void(0)" class="closebutton" onclick="closenavigation()">&times;</a>
+        <a href="index.html">Hjem</a>
+        <a href="annenmat.html">Les om mat!</a>
+    </div>
+    <span onclick="opennavigation()">open</span>
     <h1>Nettside om meg</h1>
     <h2>Favoritt Mat</h2>
     <ul>
