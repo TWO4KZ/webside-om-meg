@@ -1,28 +1,46 @@
 <html>
-  <head>
-    <title>Annen mat</title>
-    <link href="annenmat.css" rel="stylesheet">
-    <meta name="Trym" content="#" />
-    <meta charset="UTF-8" />
-    <html lang="no"></html>
-    <meta name="description" content="En side om meg" />
-    <meta name="keyword" content="Trym" />
-  </head>
-  <body>
-    <a href="index.html">
-      <p>Hjem</p>
-    </a>
-      <div class="images">
-        <a href="pizza.html">
-        <img src="pizza.png" />
-        </a>
-        <a href="taco.html">
-        <img src="taco.png" />
-        </a>
-        <a href="burger.html">
-      <img src="burger.png" />
-      </div>
 
+<head>
+  <title>Annen mat</title>
+  <link href="annenmat.css" rel="stylesheet">
+  <link href="navigation.css" rel="stylesheet">
+  <meta name="Trym" content="#" />
+  <meta charset="UTF-8" />
+  <html lang="no">
+  <script src="https://kit.fontawesome.com/a65e7b9f50.js" crossorigin="anonymous"></script>
+
+  </html>
+  <meta name="description" content="En side om meg" />
+  <meta name="keyword" content="Trym" />
+</head>
+<script>
+  function opennavigation() {
+    document.getElementById("navigation").style.width = "250px";
+  }
+  function closenavigation() {
+    document.getElementById("navigation").style.width = "0px";
+  }
+</script>
+
+<body>
+  <div id="navigation" class="navigation">
+    <a href="javascript:void(0)" class="closebutton" onclick="closenavigation()">&times;</a>
+    <a href="index.html">Hjem</a>
+    <a href="annenmat.html">Les om mat!</a>
+  </div>
+  <span onclick="opennavigation()" class="fa-solid fa-bars fa-2x"></span>
+  <div class="images">
+    <a href="pizza.html">
+      <img src="pizza.png" />
     </a>
-  </body>
+    <a href="taco.html">
+      <img src="taco.png" />
+    </a>
+    <a href="burger.html">
+      <img src="burger.png" />
+  </div>
+
+  </a>
+</body>
+
 </html>

@@ -3,29 +3,32 @@
 <head>
     <title>Nettside om meg</title>
     <link href="index.css" rel="stylesheet">
+    <link href="navigation.css" rel="stylesheet">
     <meta name="Trym" content="#">
     <meta charset="UTF-8">
     <html lang="no">
+    <script src="https://kit.fontawesome.com/a65e7b9f50.js" crossorigin="anonymous"></script>
 
     </html>
     <meta name="description" content="En side om meg">
     <meta name="keyword" content="Trym">
 </head>
 <script>
-    function opennavigation(){
-        document.getElementById("navigation").style.width="250px";
+    function opennavigation() {
+        document.getElementById("navigation").style.width = "250px";
     }
-    function closenavigation(){
+    function closenavigation() {
         document.getElementById("navigation").style.width = "0px";
     }
 </script>
+
 <body>
     <div id="navigation" class="navigation">
         <a href="javascript:void(0)" class="closebutton" onclick="closenavigation()">&times;</a>
         <a href="index.html">Hjem</a>
         <a href="annenmat.html">Les om mat!</a>
     </div>
-    <span onclick="opennavigation()">open</span>
+    <span onclick="opennavigation()" class="fa-solid fa-bars fa-2x"></span>
     <h1>Nettside om meg</h1>
     <h2>Favoritt Mat</h2>
     <ul>
