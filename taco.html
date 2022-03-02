@@ -1,37 +1,53 @@
 <html>
-  <head>
-    <title>Taco</title>
-    <link href="mat.css" rel="stylesheet">
-    <meta name="Trym" content="#" />
-    <meta charset="UTF-8" />
-    <html lang="no"></html>
-    <meta name="description" content="En side om meg" />
-    <meta name="keyword" content="Trym" />>
-  </head>
-  <body>
-    <img src="taco2.jpg" />
-    <div class="box">
-      <p>fra Wikipedia, den frie encyklopedie</p>
-      <p style="text-align: left">
-        En taco er en tradisjonell meksikansk rett som består av en liten
-        håndstørrelse mais- eller hvetetortilla toppet med fyll. Tortillaen
-        brettes så rundt fyllet og spises for hånd. En taco kan lages med en
-        rekke fyllinger, inkludert biff, svinekjøtt, kylling, sjømat, bønner,
-        grønnsaker og ost, noe som gir stor allsidighet og variasjon. De er ofte
-        pyntet med forskjellige krydder, for eksempel salsa, guacamole eller
-        rømme, og grønnsaker, for eksempel salat, løk, tomater og chili. Taco er
-        en vanlig form for antojitos, eller meksikansk gatemat, som har spredt
-        seg over hele verden. Taco kan sammenlignes med lignende matvarer som
-        burritos, som ofte er mye større og rullet i stedet for foldet;
-        taquitos, som rulles og stekes; eller chalupas/tostadas, der tortillaen
-        stekes før fylling
-      </p>
-    </div>
-    <a href="index.html">
-      <p>Hjem</p>
-    </a>
-    <a href="annenmat.html">
-      <p>Les om annen mat!</p>
-    </a>
-  </body>
+
+<head>
+  <title>Taco</title>
+  <link href="mat.css" rel="stylesheet">
+  <link href="navigation.css" rel="stylesheet">
+  <meta name="Trym" content="#" />
+  <meta charset="UTF-8" />
+  <html lang="no">
+
+  </html>
+  <meta name="description" content="En side om meg" />
+  <meta name="keyword" content="Trym" />
+  <script src="https://kit.fontawesome.com/a65e7b9f50.js" crossorigin="anonymous"></script>
+</head>
+<script>
+  function opennavigation() {
+    document.getElementById("navigation").style.width = "250px";
+  }
+  function closenavigation() {
+    document.getElementById("navigation").style.width = "0px";
+  }
+</script>
+
+<body>
+  <div id="navigation" class="navigation">
+    <a href="javascript:void(0)" class="closebutton" onclick="closenavigation()">&times;</a>
+    <a href="index.html"><i class="fa-solid fa-house"></i>Hjem</a>
+    <a href="annenmat.html">Les om mat!</a>
+    <a href="merommeg.html"><i class="fa-solid fa-person"></i>Mer om meg</a>
+  </div>
+  <span onclick="opennavigation()" class="fa-solid fa-bars fa-2x"></span>
+  <img src="taco2.jpg" />
+  <div class="box">
+    <p>fra Wikipedia, den frie encyklopedie</p>
+    <p style="text-align: left">
+      En taco er en tradisjonell meksikansk rett som består av en liten
+      håndstørrelse mais- eller hvetetortilla toppet med fyll. Tortillaen
+      brettes så rundt fyllet og spises for hånd. En taco kan lages med en
+      rekke fyllinger, inkludert biff, svinekjøtt, kylling, sjømat, bønner,
+      grønnsaker og ost, noe som gir stor allsidighet og variasjon. De er ofte
+      pyntet med forskjellige krydder, for eksempel salsa, guacamole eller
+      rømme, og grønnsaker, for eksempel salat, løk, tomater og chili. Taco er
+      en vanlig form for antojitos, eller meksikansk gatemat, som har spredt
+      seg over hele verden. Taco kan sammenlignes med lignende matvarer som
+      burritos, som ofte er mye større og rullet i stedet for foldet;
+      taquitos, som rulles og stekes; eller chalupas/tostadas, der tortillaen
+      stekes før fylling
+    </p>
+  </div>
+</body>
+
 </html>
