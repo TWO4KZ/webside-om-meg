@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Mer om meg</title>
+    <link href="merommeg.css" rel="stylesheet">
+    <link href="navigation.css" rel="stylesheet">
+    <meta name="Trym" content="#" />
+    <meta charset="UTF-8" />
+    <html lang="no">
+    <script src="https://kit.fontawesome.com/a65e7b9f50.js" crossorigin="anonymous"></script>
+
+    </html>
+    <meta name="description" content="En side om meg" />
+    <meta name="keyword" content="Trym" />
+</head>
+<script>
+    function opennavigation() {
+        document.getElementById("navigation").style.width = "250px";
+    }
+    function closenavigation() {
+        document.getElementById("navigation").style.width = "0px";
+    }
+</script>
+
+<body>
+    <div id="navigation" class="navigation">
+        <a href="javascript:void(0)" class="closebutton" onclick="closenavigation()">&times;</a>
+        <a href="index.html"><i class="fa-solid fa-house"></i>Hjem</a>
+        <a href="annenmat.html">Les om mat!</a>
+        <a href="merommeg.html"><i class="fa-solid fa-person"></i>Mer om meg</a>
+    </div>
+    <span onclick="opennavigation()" class="fa-solid fa-bars fa-2x"></span>
+    <div class="box">
+        <ul>
+            <li>Jeg er 15 år gammel</li>
+            <li>Jeg går på Ellingsrud ungdoms skole</li>
+            <li>Jeg har 1 lillebror</li>
+            <li>Favoritt fargern min er blå</li>
+            <li>kan python, html, css, litt javascript, proccesing og scratch</li>
+        </ul>
+    </div>
+</body>
+
+</html>

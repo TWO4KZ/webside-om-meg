@@ -20,7 +20,10 @@
             transition: 0.3s;
         }
         .navigation a:hover{
-            color: whitesmoke;
+            color: black;
+            border-color: white;
+            background-color: white;
+            transition: 0.5s;
         }
         .navigation .closebutton{
             position: absolute;
@@ -32,4 +35,7 @@
         #main {
             transition: margin-left .5s;
             padding: 20px;
+        }
+        span{
+            color: white;
         }

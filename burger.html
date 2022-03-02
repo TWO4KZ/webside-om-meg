@@ -1,48 +1,64 @@
 <html>
-  <head>
-    <title>Burger</title>
-    <link href="mat.css" rel="stylesheet">
-    <meta name="Trym" content="#" />
-    <meta charset="UTF-8" />
-    <html lang="no"></html>
-    <meta name="description" content="En side om meg" />
-    <meta name="keyword" content="Trym" />
-  </head>
-  <body>
-    <img src="burger2.jpg" />
-    <div class="box">
-      <p>fra Wikipedia, den frie encyklopedie</p>
-      <p style="text-align: left;">
-        Hamburger Hamburgerkurs Hovedrett Opprinnelsessted Tyskland eller United
-        Stater Opprettet av flere påstander Serveringstemperatur Hot Main
-        ingredienser Kjøtt, brød Kokebok: Hamburger Media: Hamburger A hamburger
-        (eller burger for kort) er en matvare bestående av fyll - vanligvis en
-        kjøttdeig, typisk biff - plassert i en skive bolle eller rundstykke.
-        Hamburgere serveres ofte med ost, salat, tomat, løk, pickles, bacon
-        eller chili; krydder som ketchup, sennep, majones, relish, eller en
-        "spesiell saus", ofte en variant av Thousand Island dressing; og legges
-        ofte på sesamfrøboller. En hamburger toppet med ost kalles en
-        cheeseburger. Begrepet burger kan også påføres kjøttet alene, spesielt i
-        Storbritannia, hvor begrepet patty sjelden brukes, eller begrepet kan
-        refererer til og med bare til kjøttdeig. Siden begrepet hamburger
-        vanligvis innebærer biff, for klarhetens skyld kan burger settes foran
-        med typen kjøtt eller kjøtterstatning brukt, som i biffburger,
-        kalkunburger, bisonburger, portobello burger, eller veggie burger. I
-        Australia og New Zealand, en stykke kyllingbryst på en bolle er kjent
-        som en kyllingburger, som vil generelt ikke anses å være en burger i
-        USA; Amerikanere vil generelt kalle det en kyllingsandwich, men på
-        australsk Engelsk og New Zealand engelsk en sandwich krever oppskåret
-        brød (ikke en bolle), så det vil ikke bli betraktet som en sandwich.
-        Hamburgere er vanligvis selges på fastfood-restauranter, spisesteder og
-        spesialiteter og eksklusive restauranter. Det er mange internasjonale og
-        regionale varianter av hamburgere.
-      </p>
-    </div>
-    <a href="index.html">
-      <p>Hjem</p>
-    </a>
-    <a href="annenmat.html">
-      <p>Les om annen mat!</p>
-    </a>
-  </body>
+
+<head>
+  <title>Burger</title>
+  <link href="mat.css" rel="stylesheet">
+  <link href="navigation.css" rel="stylesheet">
+  <meta name="Trym" content="#" />
+  <meta charset="UTF-8" />
+  <html lang="no">
+
+  </html>
+  <meta name="description" content="En side om meg" />
+  <meta name="keyword" content="Trym" />
+  <script src="https://kit.fontawesome.com/a65e7b9f50.js" crossorigin="anonymous"></script>
+</head>
+<script>
+  function opennavigation() {
+    document.getElementById("navigation").style.width = "250px";
+  }
+  function closenavigation() {
+    document.getElementById("navigation").style.width = "0px";
+  }
+</script>
+
+<body>
+  <div id="navigation" class="navigation">
+    <a href="javascript:void(0)" class="closebutton" onclick="closenavigation()">&times;</a>
+    <a href="index.html"><i class="fa-solid fa-house"></i>Hjem</a>
+    <a href="annenmat.html">Les om mat!</a>
+    <a href="merommeg.html"><i class="fa-solid fa-person"></i>Mer om meg</a>
+  </div>
+  <span onclick="opennavigation()" class="fa-solid fa-bars fa-2x"></span>
+  <img src="burger2.jpg" />
+  <div class="box">
+    <p>fra Wikipedia, den frie encyklopedie</p>
+    <p style="text-align: left;">
+      Hamburger Hamburgerkurs Hovedrett Opprinnelsessted Tyskland eller United
+      Stater Opprettet av flere påstander Serveringstemperatur Hot Main
+      ingredienser Kjøtt, brød Kokebok: Hamburger Media: Hamburger A hamburger
+      (eller burger for kort) er en matvare bestående av fyll - vanligvis en
+      kjøttdeig, typisk biff - plassert i en skive bolle eller rundstykke.
+      Hamburgere serveres ofte med ost, salat, tomat, løk, pickles, bacon
+      eller chili; krydder som ketchup, sennep, majones, relish, eller en
+      "spesiell saus", ofte en variant av Thousand Island dressing; og legges
+      ofte på sesamfrøboller. En hamburger toppet med ost kalles en
+      cheeseburger. Begrepet burger kan også påføres kjøttet alene, spesielt i
+      Storbritannia, hvor begrepet patty sjelden brukes, eller begrepet kan
+      refererer til og med bare til kjøttdeig. Siden begrepet hamburger
+      vanligvis innebærer biff, for klarhetens skyld kan burger settes foran
+      med typen kjøtt eller kjøtterstatning brukt, som i biffburger,
+      kalkunburger, bisonburger, portobello burger, eller veggie burger. I
+      Australia og New Zealand, en stykke kyllingbryst på en bolle er kjent
+      som en kyllingburger, som vil generelt ikke anses å være en burger i
+      USA; Amerikanere vil generelt kalle det en kyllingsandwich, men på
+      australsk Engelsk og New Zealand engelsk en sandwich krever oppskåret
+      brød (ikke en bolle), så det vil ikke bli betraktet som en sandwich.
+      Hamburgere er vanligvis selges på fastfood-restauranter, spisesteder og
+      spesialiteter og eksklusive restauranter. Det er mange internasjonale og
+      regionale varianter av hamburgere.
+    </p>
+  </div>
+</body>
+
 </html>
