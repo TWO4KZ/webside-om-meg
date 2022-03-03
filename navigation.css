@@ -39,3 +39,7 @@
         span{
             color: white;
         }
+        .close a:hover {
+            background-color: black;
+            color: white;
+        }
